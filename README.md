@@ -1,6 +1,7 @@
-项目介绍：
+# 基于SVM与随机森林的网络入侵检测系统
+## 项目介绍：
 本项目基于NSL-KDD数据集实现网络入侵二分类检测，采用SVM +随机森林加权融合模型，集成互信息特征选择、SMOTE过采样、类别平衡、动态权重概率融合等技术，解决单一SVM模型 “高精确率、低召回率” 问题。代码完整实现数据加载、预处理、特征工程、模型训练、消融实验、多指标评估与可视化，可直接复现论文实验结果，用于网络入侵检测研究与二次开发。
-项目声明：
-项目名称（Project Name）：IDS-SVM-RF-Fusion
-项目作者（Author）：Xin Chen
-作者单位（Affiliation）：暨南大学网络空间安全学院（College of Cyber Security, Jinan University）
+## 项目声明：
+- 项目名称（Project Name）：IDS-SVM-RF-Fusion
+- 项目作者（Author）：Xin Chen
+- 作者单位（Affiliation）：暨南大学网络空间安全学院（College of Cyber Security, Jinan University）
